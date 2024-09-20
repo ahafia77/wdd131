@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 1 auto;
+}
+h1 {
+    font-weight: 100%;
+}
+.nav 
+{
+    background-color: rgb(94, 73, 63);
+    margin: 0 auto;
+    max-width: fit-content 800px;
+}
+
+.nav ul {
+    list-style-type: none;
+    background-color: blueviolet;
+}
+.nav a
+{
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 0 auto;
+    text-decoration: none;
+}
+nav :hover {
+    border: 1px #fff;
+}
+
+nav ul 
+{
+    display: flex;
+}
+
+p {
+	margin: 0.25rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem 0.75rem;
+	background-color: #eee;
+}
+
+.highlight {
+	color: navy;
+	font-weight: 700;
+	font-family: hebrew;
+}
